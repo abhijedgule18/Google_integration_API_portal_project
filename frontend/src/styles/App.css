@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, sans-serif; /* Consistent font family */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Light background for contrast */
+}
+
+h1 {
+    color: #333; /* Dark gray for headings */
+}
+
+p {
+    color: #666; /* Softer color for paragraph text */
+}
+
+.error-message {
+    color: red; /* Error messages in red */
+}

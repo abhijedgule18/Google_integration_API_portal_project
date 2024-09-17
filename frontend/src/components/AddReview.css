@@ -1,0 +1,42 @@
+/* src/styles/AddReview.css */
+.add-review {
+    background-color: #f9f9f9; /* Light background color */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 4px; /* Rounded corners */
+    padding: 20px; /* Inner spacing */
+    margin: 20px 0; /* Space above and below */
+}
+
+.add-review h2 {
+    font-size: 1.5rem; /* Font size for the title */
+    margin-bottom: 15px; /* Space below the title */
+}
+
+.add-review form {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+}
+
+.add-review input[type="text"],
+.add-review textarea,
+.add-review input[type="number"] {
+    padding: 10px; /* Inner spacing for inputs */
+    margin-bottom: 15px; /* Space below each input */
+    border: 1px solid #ccc; /* Light gray border for inputs */
+    border-radius: 4px; /* Rounded corners for inputs */
+}
+
+.add-review button {
+    padding: 10px; /* Inner spacing for button */
+    background-color: #4CAF50; /* Green background color */
+    color: white; /* White text color */
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Rounded corners for button */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+/* Add hover effect for button */
+.add-review button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+    border-radius: 4px;

@@ -1,0 +1,25 @@
+/* src/styles/ReviewCard.css */
+.review-card {
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 4px; /* Rounded corners */
+    padding: 10px; /* Inner spacing */
+    margin-bottom: 10px; /* Space between cards */
+    background-color: #f9f9f9; /* Light background color */
+    transition: box-shadow 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.review-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow on hover */
+}
+
+.review-card h3 {
+    font-size: 1.2rem; /* Slightly larger font for author name */
+    margin: 0; /* Remove default margin */
+    color: #333; /* Dark gray color for better readability */
+}
+
+.review-card p {
+    font-size: 1rem; /* Standard font size for content */
+    margin: 5px 0; /* Space above and below paragraphs */
+    color: #555; /* Medium gray color for content text */
+}

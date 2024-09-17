@@ -1,0 +1,17 @@
+/* styles for Navbar component */
+.navbar {
+    background-color: #ffffff;
+    box-shadow: none;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.navbar-title {
+    flex-grow: 1;
+    font-size: 1.5rem;
+    color: #202124;
+}
+
+.navbar-button {
+    color: #4285f4;
+    text-transform: none;
+}

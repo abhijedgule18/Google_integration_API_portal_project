@@ -1,0 +1,17 @@
+/* styles for Footer component */
+.footer {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+.footer-link {
+    margin: 0 10px;
+    color: #4285f4;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}

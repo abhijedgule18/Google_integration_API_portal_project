@@ -1,0 +1,31 @@
+/* src/styles/Reviews.css */
+.reviews-container {
+    padding: 20px;
+    max-width: 800px; /* Limit width for better readability */
+    margin: auto; /* Center the container */
+}
+
+.reviews-container h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.error-message {
+    color: red;
+}
+
+.review-card {
+    border: 1px solid #ddd; /* Light border for each review card */
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px; /* Space between review cards */
+    background-color: #fff; /* White background for cards */
+}
+
+.review-card h3 {
+    margin: 0;
+}
+
+.review-card p {
+    margin: 5px 0;
+}

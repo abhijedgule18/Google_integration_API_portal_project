@@ -1,0 +1,35 @@
+/* styles for Home component */
+.home-container {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.google-header {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #4285f4; /* Google's blue color */
+}
+
+.search-input {
+    width: 60%;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.primary-button {
+    background-color: #4285f4;
+    color: white;
+    margin-right: 10px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.secondary-button {
+    border: 1px solid #4285f4;
+    color: #4285f4;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
